@@ -1,2 +1,4 @@
 # Spotify-Clone
-Recriar um clone da página inicial do Spotify para exercitar as práticas em Bootstrap.
+Este projeto visa criar um clone da página inicial do Spotify.
+
+Visa testar e aprimorar as técnicas com utilização do framework Boostrap.
