@@ -1,0 +1,142 @@
+
+/* ========================= layout ======================== */
+
+/* começar com body, pra fazer modificações lineares */
+body{
+	/*fazer uma composição de 3 backgrounds*/
+	background: url('imagens/capa.png'), 
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);/*deixar letra minuscula*/
+	background-attachment: fixed; /*mater a imagem de fundo fixa*/
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+html, body, .capa{
+	height: 100%;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9bf0e1;
+}
+
+/* -- Imagem de capa (principal) -- */
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Configuração dos botões -- */
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;/*colocar todas as letras em maiusculo*/
+	margin: 0px 15px; 	
+	transition: background 0.5s, color 0.5s;
+}
+
+.btn-roxo{
+	background: #7c25f8;
+}
+
+.btn-roxo:hover{
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+}
+
+.btn-branco:hover{
+	background: white;
+	color: black;
+}
+
+/* -- Seção de serviço -- */
+#servico{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* ========================= Tipografia (formatação de textos) ======================== */
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h2{
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#servico h2, #servico h3{
+	color: #7c25f8;
+}
+
+#recursos p{
+	color: white;
+}
+
+#recursos h2, #recursos h3{
+	color: green;
+}
