@@ -12,7 +12,7 @@ body{
 				url('imagens/ruido.png'),
 				linear-gradient(50deg,#ff4169,#7c26f8);/*deixar letra minuscula*/
 	background-attachment: fixed; /*mater a imagem de fundo fixa*/
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: "Helvetica",'Muli', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -75,6 +75,7 @@ nav.navbar-transparente {
 	text-transform: uppercase;/*colocar todas as letras em maiusculo*/
 	margin: 0px 15px; 	
 	transition: background 0.5s, color 0.5s;
+	margin-bottom: 10px;
 }
 
 .btn-roxo{
@@ -132,6 +133,83 @@ footer{
 	float: right;
 }
 
+/* -- espaço entre as imagens de capa dos albuns -- */
+.espaco{
+	margin-bottom: 25px;
+}
+
+.fundopremium{
+	background: rgb(73, 129, 114);
+	display: table;
+	width: 100%;
+}
+
+#area1{
+	margin-top: 110px; 
+	margin-bottom:30px;	
+}
+
+.btn-premium{
+	color: rgb(46, 90, 78);;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;/*colocar todas as letras em maiusculo*/
+	margin: 0px 15px; 	
+	transition: background 0.5s, color 0.5s;
+	margin-bottom: 10px;
+	background: rgb(255, 205, 210);	
+	letter-spacing: 0.14em;
+}
+
+.btn-premium a:hover{	
+	background: rgb(255, 235, 210);
+}
+
+#fundo-univ{
+	background: rgb(46, 90, 78);
+	display: table;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#fundo-info{
+	background: #FFF;
+	display: table;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.alinhamento{
+	text-align: center;
+}
+
+.espacamento{
+	margin-top:50px;
+}
+
+.alinha-img{
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.espaco-texto{
+	padding-top: 15px;
+
+}
+
+.marcador-dir{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align:  right;
+	font-size: 12px;
+	color: rgb(255, 205, 210);
+	font-weight: bold;
+}
+
 /* ========================= Tipografia (formatação de textos) ======================== */
 h1{
 	font-size: 100px;
@@ -141,7 +219,7 @@ h1{
 }
 
 h2{
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
@@ -168,4 +246,51 @@ h3{
 
 #recursos h3{
 	color: #9bf0e1;
+}
+
+#texto-secao h3{
+	font-size: 45px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#texto-secao h4{
+	font-size: 28px;
+	font-weight: ;
+	color: #FFFFFF;
+}
+
+.txt-botao{
+	font-size: 13px;
+}
+
+/* -- negrito -- */
+.negrito{
+	font-weight: bold;	
+}
+
+#fundo-univ h4{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.titulo{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: rgb(34, 35, 38);
+	text-align: center;
+	font-weight: bold;
+}
+
+.txt-premium{
+	color: rgb(34, 35, 38);
+}
+
+.txt-premium h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(34, 35, 38);
 }
